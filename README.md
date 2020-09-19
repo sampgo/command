@@ -1,0 +1,2 @@
+# command
+sampgo command handler
