@@ -28,18 +28,18 @@ func TestEntryPoint(t *testing.T) {
 		t.Error(err)
 	}
 
-	beforeFunc = func(ctx Context) (err error) {
+	SetGeneralCommandBeforeFunc(func(ctx Context) (err error) {
 		fmt.Println("before commadn gets fired!")
 		fmt.Println(ctx)
 		return
-	}
+	})
 
-	afterFunc = func(ctx Context) (err error) {
+	SetGeneralCommandAfterFunc(func(ctx Context) (err error) {
 		fmt.Println("after command gets fired!")
 		fmt.Println(ctx)
 		fmt.Println()
 		return
-	}
+	})
 
 	fail := errors.New("handler call failed")
 
