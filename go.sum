@@ -1,2 +1,4 @@
-github.com/sampgo/sampgo v0.0.0-20200919215312-c952856260cb h1:Dhk08PR/P7TweaV+KEOf5rS62VnAce7wLBcy8MKhrHA=
-github.com/sampgo/sampgo v0.0.0-20200919215312-c952856260cb/go.mod h1:RxPIaAhBjDhg+sACPV864uKVUSpC2U7oC286I4rtGjg=
+github.com/sampgo/sampgo v0.0.0-20200920165536-9e5a7a59d8e8 h1:q0GUFZQtL4JsMv1yYKknWimQ+G04FmQ3YrqgU+BPBIs=
+github.com/sampgo/sampgo v0.0.0-20200920165536-9e5a7a59d8e8/go.mod h1:RxPIaAhBjDhg+sACPV864uKVUSpC2U7oC286I4rtGjg=
+github.com/sampgo/sampgo v0.0.0-20200920194748-bb8ec99b20ab h1:n2thxUgah/C8lN455H7+vgM/sz6Jx1EMEhIEywP3/jk=
+github.com/sampgo/sampgo v0.0.0-20200920194748-bb8ec99b20ab/go.mod h1:RxPIaAhBjDhg+sACPV864uKVUSpC2U7oC286I4rtGjg=
