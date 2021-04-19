@@ -199,7 +199,7 @@ func handler(p sampgo.Player, text string) bool {
 			args = nil
 		} else {
 			cmdName = args[0]
-			args = append(args)
+			args = append(args[1:])
 		}
 
 		cmd, ok := commands[cmdName]
